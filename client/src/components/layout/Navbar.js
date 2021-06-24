@@ -9,7 +9,7 @@ export const Navbar = ({auth: {isAuthenticated, loading}, logout}) => {
 	const authLinks = (
 		<ul>
 			<li>
-				<Link to='/profile'>Developers</Link>
+				<Link to='/profiles'>Developers</Link>
 			</li>
 			<li>
 				<Link to='/posts'>Posts</Link>
