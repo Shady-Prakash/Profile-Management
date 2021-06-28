@@ -24,7 +24,7 @@ const ProfileExperience = ({
 );
 
 ProfileExperience.propTypes = {
-	education: PropTypes.array.isRequired,
+	experience: PropTypes.array.isRequired,
 };
 
 export default ProfileExperience;
